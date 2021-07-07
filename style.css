@@ -1,0 +1,71 @@
+.main-page{
+    height: 800px;
+    margin-top: 20px;
+}
+
+.search-enter{
+    border: 1px solid #383E56;
+    color: #383E56;
+    /* background: #F0F2EB; */
+}
+
+.btn-outline-dark{
+    border: 1px solid #383E56;
+}
+
+.btn-outline-dark:hover{
+    background-color:#383E56 ;
+}
+
+.coin-details{
+    background: #F0F2EB;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px 50px;
+}
+
+h1{
+    color: #FB743E;
+    font-family: 'Merriweather', serif;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+hr{
+    border: 1px solide black;
+}
+
+.key{
+    color: #383E56;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.value{
+    color: #FB743E;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.details{
+    margin-top: 20px; 
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 990px) {
+    .details{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+  }
