@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="col-md-4"></div>
-            <div class="col-12 col-md-5" style="text-align: center; margin: auto; margin-bottom: 10px;">
+            <div class="col-12 col-md-5 currency-buttons">
                 <button class="btn btn-outline-dark currency-inr active" id='btn-INR'>INR</button>
                 <button class="btn btn-outline-dark currency-usd" id='btn-USD'>USD</button>
                 <button class="btn btn-outline-dark currency-euro" id='btn-EURO'>EURO</button>
@@ -57,7 +57,7 @@
         <div class="coin-details">
             <div class="row">
                 <img src="" alt="" id='coin-image' style="height: 70px; width: 70px;">
-                <h1 id="coin-name">BITCOIN</h1>
+                <h1 id="coin-name"></h1>
             </div>
             <div class="row details">
                 <div class="col-12 col-md-5">
@@ -66,7 +66,7 @@
                             Symbol
                         </div>
                         <div class="col-6 value" id="value-symbol">
-                            BTC
+
                         </div>
                     </div>
                     <div class="row">
@@ -74,7 +74,7 @@
                             Rank
                         </div>
                         <div class="col-6 value" id="value-rank">
-                            1
+
                         </div>
                     </div>
                     <div class="row">
@@ -82,7 +82,7 @@
                             BTC Price
                         </div>
                         <div class="col-6 value" id="value-btc">
-                            1
+
                         </div>
                     </div>
                     <div class="row">
@@ -90,7 +90,7 @@
                             Price
                         </div>
                         <div class="col-6 value" id="value-price">
-                            INR 2586278.69
+
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                             1D Price Change
                         </div>
                         <div class="col-6 value" id="value-1D">
-                            BTC
+
                         </div>
                     </div>
                     <div class="row">
@@ -109,7 +109,7 @@
                             1W Price Change
                         </div>
                         <div class="col-6 value" id="value-1W">
-                            1
+
                         </div>
                     </div>
                     <div class="row">
@@ -117,7 +117,7 @@
                             Volume
                         </div>
                         <div class="col-6 value" id="value-volume">
-                            1
+
                         </div>
                     </div>
                     <div class="row">
@@ -125,7 +125,6 @@
                             Market Cap
                         </div>
                         <div class="col-6 value" id="value-cap">
-                            INR 2586278.69
                         </div>
                     </div>
                 </div>
@@ -141,8 +140,53 @@
             </div>
         </div>
 
+        <div class="other-coins" style="margin-top: 20px;">
+            <h5>Other Coins&nbsp;:</h5>
+            <div class="table-responsive-md" style="margin: 0 20px;">
+                <table class="table table-borderless">
+                    <thead class="table-header">
+                        <tr>
+                            <td>Rank</td>
+                            <td>Coin</td>
+                            <td>Symbol</td>
+                            <td>BTC Price</td>
+                            <td>Price</td>
+                            <td>1D Price Change</td>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body" id="tablebody">
+                    </tbody>
+                </table>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item" id="li-first">
+                        <a class="page-link" href="#">First</a>
+                    </li>
+                    <li class="page-item" id="li-previous">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            Previous
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" id='li1' href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" id='li2' href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" id='li3' href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" id='li4' href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" id='li5' href="#">5</a></li>  
+                    <li class="page-item" id="li-next">
+                        <a class="page-link" href="#" aria-label="Next">
+                            Next
+                        </a>
+                    </li>
+                    <li class="page-item" id="li-last">
+                        <a class="page-link" href="#">Last</a>
+                    </li>
+                </ul>
+            </nav>
 
+        </div>
     </div>
+
 
     <script src=" index.js">
     </script>

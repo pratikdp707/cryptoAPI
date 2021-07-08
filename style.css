@@ -17,6 +17,13 @@
     background-color:#383E56 ;
 }
 
+.currency-buttons{
+    text-align: right; 
+    margin: auto; 
+    margin-bottom: 10px; 
+    padding-right: 36px;
+}
+
 .coin-details{
     background: #F0F2EB;
     border-radius: 10px;
@@ -63,9 +70,72 @@ hr{
     margin-right: 50px;
 }
 
+h5{
+    color: #383E56;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.table-header{
+    background: #F0F2EB;
+    height: 50px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: #383E56;
+    border-radius: 10px;
+}
+
+.table-body{
+    text-align: center;
+    color: #FB743E;
+    background: #383E56;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.page-item{
+    border: none;
+    margin: 0 3px;
+}
+
+.page-link{
+    border: 1px solid #383E56;
+    color: #383E56;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.page-link:hover{
+    background: #383E56;
+    color: white;
+}
+
+.active-pagination{
+    background: #383E56;
+    color: white;
+}
+
 @media screen and (max-width: 990px) {
     .details{
         margin-left: -20px;
         margin-right: -20px;
     }
+  }
+
+@media screen and (max-width: 460px) {
+    .details{
+        margin-left: -37px;
+        margin-right: -37px;
+    }
+  }
+
+  @media screen and (max-width: 770px){
+      .currency-buttons{
+          text-align: center;
+      }
   }
