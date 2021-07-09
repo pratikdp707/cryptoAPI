@@ -13,11 +13,21 @@ setActive(1,1);
 document.getElementById('input-location').value  = '';
 
 document.getElementById('search-coin').addEventListener('click',e=>{
-    let coinName = document.getElementById('input-location').value;
+    let coinName = small(document.getElementById('input-location').value);
     getData(globalCoin+coinName+'?currency='+currency, globalCoins+'currency='+currency);   
     coin = coinName;
     console.log(coinName);
 });
+
+
+function small(input) {
+    var words = input.split('');
+    var smallWords = [];
+    words.forEach(element => {
+    smallWords.push(element.toLowerCase());
+    });
+    return smallWords.join('');
+}
 
 document.getElementById('btn-INR').addEventListener('click',e=>{
     document.getElementById('btn-'+currency).classList.remove('active');
